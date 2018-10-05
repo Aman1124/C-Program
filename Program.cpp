@@ -1,4 +1,4 @@
-#include iostream
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -8,7 +8,7 @@ Start:
 cout<<"Choose any one of the following:\n";
 cout<<"1.Pattern 1\n2.Pattern 2\n";
 cin>>a;
-switch (a);
+switch (a)
 {
 case 1:
 {
@@ -54,6 +54,7 @@ for(int y=1;y<=2*x-1;y++)
 cout<<"*";
 cout<<"\n";
 }
+  break;
 }
 Default:
 {
@@ -62,4 +63,5 @@ goto Start;
 break;
 }
 }
+  return 0;
 }
