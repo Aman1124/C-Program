@@ -1,2 +1,2 @@
 # C-Program
-in this repository you can add or remove the eroors in the already added c++ programmm filess 
+In this repository you can add or remove the errors in the already added c++ programm files 
